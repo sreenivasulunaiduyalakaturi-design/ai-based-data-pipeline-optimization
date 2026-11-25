@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "batch_size": 500,
+    "num_workers": 1,
+    "use_vectorized": 0,
+    "runtime_sec": 1.7068412100000074,
+    "peak_mem_mb": 45.836924,
+    "rows_in": 204000,
+    "rows_out": 197912,
+    "throughput_rps": 119519.02661173684
+  },
+  "optimized": {
+    "batch_size": 50000,
+    "num_workers": 4,
+    "use_vectorized": 1,
+    "runtime_sec": 0.0609012479999933,
+    "peak_mem_mb": 37.840346,
+    "rows_in": 204000,
+    "rows_out": 197912,
+    "throughput_rps": 3349685.0507894754
+  },
+  "speedup": 28.026374927492377
+}
